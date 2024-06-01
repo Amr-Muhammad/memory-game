@@ -44,7 +44,7 @@ function changeSrc(target, index) {
             userScore++
             document.getElementsByClassName('memorygameContainer')[0].style.pointerEvents = 'auto'
             if (userScore == 6) {
-                document.getElementsByTagName('body')[0].style.backgroundImage = "url(../images/gif/MMNbi2fUEIQ8PwYrxmRHo8gUm3O0ehhBUBqBa6hbgAk.gif)"
+                document.getElementsByTagName('body')[0].style.backgroundImage = 'url(../images/gif/MMNbi2fUEIQ8PwYrxmRHo8gUm3O0ehhBUBqBa6hbgAk.gif)'
                 console.log(document.getElementsByTagName('body')[0].style.backgroundImage);
                 alert('Congratulations!')
             }
