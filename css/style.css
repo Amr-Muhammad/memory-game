@@ -20,12 +20,13 @@ h1 {
     color: #030b0c;
     text-shadow: 0px 0px 50px #ffffff;
     top: 50px;
-    font-size: 70px;
+    font-size: 80px;
     font-style: italic;
     margin: 0;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #85d3d9;
     animation: animateText 2s infinite ease;
+    text-align: center;
 }
 
 .memorygameContainer {
@@ -42,8 +43,8 @@ h1 {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 5px;
-    scale: 0.8;
+    gap: 10px;
+    scale: 0.6;
 }
 
 .memorygameContainer img {
@@ -72,5 +73,11 @@ h1 {
     100% {
         -webkit-text-stroke-width: 1px;
         text-shadow: 0px 0px 50px #85d3d9;
+    }
+}
+
+@media screen and (width<=600px) {
+    .memorygameContainer div {
+        scale: 1;
     }
 }
