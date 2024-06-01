@@ -40,11 +40,14 @@ function changeSrc(target, index) {
             secondPick = null
             firstIndex = 0
             secondIndex = 0
+            for (let i = 0; i < matchedElements.length; i++) {
+                matchedElements[i].style.pointerEvents = 'none'
+            }
             matchedElements = []
             userScore++
             document.getElementsByClassName('memorygameContainer')[0].style.pointerEvents = 'auto'
             if (userScore == 6) {
-                document.getElementsByTagName('body')[0].style.backgroundImage = "url('../images/gif/congrats.gif')";
+                document.getElementsByTagName('body')[0].style.backgroundImage = "url('../images/memory Game/1.gif')";
                 console.log(document.getElementsByTagName('body')[0].style.backgroundImage);
                 alert('Congratulations!')
             }
