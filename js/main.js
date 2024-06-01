@@ -67,3 +67,8 @@ function changeSrc(target, index) {
     }
 
 }
+
+
+//lw 3mlt select w wa7da w eltanya msh shbha bs eltalta shbha bsor3a wra b3d msh hyd5ol goz2 el flip back fa lazm a prevent el click b3d awl 2
+// lw dost 3la elsora mrten wra b3d hy3tbr enohom nfs el path whtt7sb s7 fa lazm a check kman b el passed index
+// Lw dost 3la sora already flipped wm3molha match still btta5d fi el7osban tany fa lazm elly yt3mlo match yb2a el pointer events bta3to none
