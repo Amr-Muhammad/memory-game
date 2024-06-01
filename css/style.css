@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0b3235;
+    background-size: auto;
+    background-repeat: repeat;
+}
+
+
+h1 {
+    position: relative;
+    color: #030b0c;
+    text-shadow: 0px 0px 30px #2c888e;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #85d3d9;
+    top: 50px;
+    font-size: 70px;
+    font-style: italic;
+    margin: 0;
+}
+
+
+/* -------------- */
+/* Third Problem */
+
+.memorygameContainer {
+    display: flex;
+    height: 100svh;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.memorygameContainer div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    scale: 0.8;
+}
+
+.memorygameContainer img {
+    width: 20%;
+}
