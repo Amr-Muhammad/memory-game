@@ -6,11 +6,14 @@ body {
     margin: 0;
     padding: 0;
     background-color: #0b3235;
-    background-size: auto;
-    background-repeat: repeat;
-    background-image: url();
+
 }
 
+.gif {
+    background-image: url(../images/gif/congrats.gif);
+    background-size: auto;
+    background-repeat: repeat;
+}
 
 h1 {
     position: relative;
